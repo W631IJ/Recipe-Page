@@ -1,0 +1,76 @@
+/* * ----------------------------- Fonts ----------------------------- */
+@font-face {
+    font-family: 'Outfit';
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'YoungSerif';
+    src: url(/assets/fonts/young-serif/);
+}
+
+
+/* * ----------------------------- General ----------------------------- */
+body{
+    background-color: #f7e5d3;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: #333;
+    width: 800px;
+    height: 600px;
+    overflow: auto;
+    padding-top: 25px;
+}
+
+/* * ----------------------------- Container ----------------------------- */
+.container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+/* * ----------------------------- Image ----------------------------- */
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* * ----------------------------- Preparation Time ----------------------------- */
+.preparation-time{
+    background-color: #fff7f8;
+    padding: 15px;
+    border-radius: 25px;
+
+}
+article.preparation-time h3{
+    color: hsl(332, 51%, 32%);
+    list-style:hsl(332, 51%, 32%) ;
+
+}
+article.preparation-time li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+/* * ----------------------------- Ingredients ----------------------------- */
+ h2{
+    font-family: 'YoungSerif';
+    color: hsl(14, 45%, 36%);
+}
+
+table{
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th:nth-last-child(odd){
+    color: hsl(14, 45%, 36%);
+}
+.attribution{
+    text-align: center;
+    padding: 15px;
+}
